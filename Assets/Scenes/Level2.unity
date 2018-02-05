@@ -3882,7 +3882,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1224408417}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.14, y: 5.56, z: 0}
+  m_LocalPosition: {x: -31.4, y: 34.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5118,6 +5118,28 @@ Transform:
   m_PrefabParentObject: {fileID: 4794550549282050, guid: ef06c8a23bfb94826bca10632d4c17e1,
     type: 2}
   m_PrefabInternal: {fileID: 1251188871}
+--- !u!1 &1669977203 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1999637513435206, guid: 3d81927c031b04c98aa027143ac2dc14,
+    type: 2}
+  m_PrefabInternal: {fileID: 1783944685}
+--- !u!95 &1669977204
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1669977203}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 66571b0dc614d7443915613476509dfe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &1670947991
 Prefab:
   m_ObjectHideFlags: 0
@@ -5556,9 +5578,24 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114549048774876262, guid: 07f2eca35884bd44e8b80f6423af0fc6,
+        type: 2}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1782582513}
+    - target: {fileID: 114549048774876262, guid: 07f2eca35884bd44e8b80f6423af0fc6,
+        type: 2}
+      propertyPath: platformAnimator
+      value: 
+      objectReference: {fileID: 1669977204}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07f2eca35884bd44e8b80f6423af0fc6, type: 2}
   m_IsPrefabParent: 0
+--- !u!95 &1782582513 stripped
+Animator:
+  m_PrefabParentObject: {fileID: 95285911101509454, guid: 07f2eca35884bd44e8b80f6423af0fc6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1782582512}
 --- !u!4 &1782656960 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4338614445838776, guid: 3d81927c031b04c98aa027143ac2dc14,
